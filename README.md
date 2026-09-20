@@ -112,7 +112,8 @@ can point a form at it and it works immediately, with no account.
 
 It is just a random UUID, and it has to be yours alone. Pick any one of these:
 
-- Open [uuidgenerator.net](https://www.uuidgenerator.net/version4) and copy what it shows you.
+- Open BootForm's own [UUID generator](https://bootform.com/uuidgenerator) and copy what it shows
+  you. Nothing you generate there is sent anywhere; it runs entirely in your browser.
 - Or paste this into your browser's address bar and press enter:
   `javascript:prompt("Your form ID", crypto.randomUUID())`
 - Or, on any page, open the browser console (F12) and run `crypto.randomUUID()`.
