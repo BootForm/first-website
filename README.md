@@ -118,7 +118,8 @@ It is just a random UUID, and it has to be yours alone. Pick any one of these:
   `javascript:prompt("Your form ID", crypto.randomUUID())`
 - Or, on any page, open the browser console (F12) and run `crypto.randomUUID()`.
 
-You will get something like `3f9a1c7e-5b2d-4a18-9e44-0c7b8d2e6a01`.
+You will get something like `11111111-1111-4111-8111-111111111111`, though a real one won't repeat
+digits like that; a genuine random UUID looks far more scrambled.
 
 > **Use your own.** Do not use the one printed above, and do not use a friend's. Whoever claims a
 > form ID first owns it, and everything sent to it goes to them. Yours should be a fresh random one
@@ -135,7 +136,7 @@ Edit `index.html` again. Find this line:
 Replace `__YOUR_FORM_ID__` with your ID, so it reads:
 
 ```html
-<form action="https://f.bootform.com/3f9a1c7e-5b2d-4a18-9e44-0c7b8d2e6a01" method="POST" class="flex flex-col gap-5">
+<form action="https://f.bootform.com/11111111-1111-4111-8111-111111111111" method="POST" class="flex flex-col gap-5">
 ```
 
 Commit the change. Wait a minute.
