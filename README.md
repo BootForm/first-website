@@ -71,6 +71,29 @@ Wait a minute, reload your site, and it is yours.
 > **Picking colours is the hard part.** If you have no idea, try `--color-paper: #0f1115` and
 > `--color-ink: #e8e6e1` for a dark version, and pick any accent you like.
 
+**Optional: add your photo.** The page starts with a plain circle showing your initials. To use a
+real photo instead:
+
+1. On your repository's main page, click **Add file → Upload files**.
+2. Drag in a photo and name it `photo.jpg` (rename it before uploading if it isn't already).
+3. Commit the upload.
+4. Edit `index.html` again, find the `CHANGE ME: your photo` comment near the top, and replace the
+   `<div>` right below it with:
+   ```html
+   <img src="photo.jpg" alt="Your name" class="h-20 w-20 rounded-full object-cover">
+   ```
+
+**Optional: add your links.** Just below your bio is a row of links marked `CHANGE ME: your links`.
+Each one is a single line, for example:
+
+```html
+<a href="https://instagram.com/yourname" class="underline decoration-ink/25 underline-offset-4 hover:text-accent hover:decoration-accent">Instagram</a>
+```
+
+Change the address in `href` to your own, change the text between the tags to whatever you want it
+to say, and delete any line you don't want. Copy a line and change both to add one that isn't there
+already, like a Bluesky profile or your own site.
+
 ---
 
 ## Step 4: Make the contact form actually work
