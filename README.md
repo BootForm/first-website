@@ -168,7 +168,7 @@ You have a live website with a working contact form, and you did it without inst
 
 | | |
 |---|---|
-| **A proper domain** | `yourname.com` instead of `github.io`. GitHub's own guide: [managing a custom domain](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site). |
+| **A proper domain** | `yourname.com` instead of `github.io`. [one-page-site's Step 5](https://github.com/BootForm/one-page-site#step-5-put-it-on-your-own-domain) walks through it: a `CNAME` file, DNS records, Enforce HTTPS. |
 | **More pages** | Copy `index.html` to `about.html` and link to it. That is genuinely all it takes. |
 | **A real company page** | [one-page-site](https://github.com/BootForm/one-page-site) for a hero banner, services, pricing and a testimonial, still no installs. |
 | **A bigger site with a blog** | [vitepress-marketing](https://github.com/BootForm/vitepress-marketing). This one needs a terminal and Node.js: [setting up your computer](https://bootform.com/docs/computer-setup) walks through installing them. |
